@@ -1,0 +1,25 @@
+div.overlay-modal{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #0606067a;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.my-modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100% !important;
+    height: 100% !important;
+    max-width: 100% !important;
+    z-index: 99999;
+}
+.my-modal .col-6{
+    background-color: #fff;
+    z-index: 99999;
+    padding: 20px;
+}
